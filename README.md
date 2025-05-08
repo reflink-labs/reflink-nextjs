@@ -1,8 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Reflink - Solana Affiliate Marketing Platform
+
+Reflink is a decentralized affiliate marketing platform built on the Solana blockchain. Create, track, and earn from your referral links with transparent and instant payouts.
+
+## Features
+
+- 🔗 Create and manage referral links
+- 💰 Instant payouts on Solana blockchain
+- 📊 Real-time analytics and tracking
+- 🔒 Transparent and secure transactions
+- 🌐 Decentralized affiliate marketing
+- 💳 Solana wallet integration
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) - React framework
+- [Tailwind CSS](https://tailwindcss.com) - Styling
+- [Solana Web3.js](https://solana-labs.github.io/solana-web3.js/) - Blockchain integration
+- [Geist Font](https://vercel.com/font) - Typography
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.0 or later
+- Solana wallet (e.g., Phantom)
+- Basic understanding of Solana blockchain
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/reflink-nextjs.git
+cd reflink-nextjs
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Set up environment variables:
+
+```bash
+cp .env.example .env.local
+```
+
+Edit `.env.local` with your configuration.
+
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -10,27 +61,43 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+reflink-nextjs/
+├── app/
+│   ├── components/     # Reusable components
+│   ├── layout.tsx     # Root layout
+│   └── page.tsx       # Home page
+├── public/            # Static assets
+└── styles/           # Global styles
+```
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Deploy on Vercel
+## Support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Documentation](https://docs.reflink.com)
+- [Discord Community](https://discord.gg/reflink)
+- [Twitter](https://twitter.com/reflink)
+- [GitHub Issues](https://github.com/yourusername/reflink-nextjs/issues)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Acknowledgments
+
+- [Solana](https://solana.com) - For the blockchain infrastructure
+- [Next.js](https://nextjs.org) - For the amazing framework
+- [Vercel](https://vercel.com) - For the deployment platform
+
+---
+
+Built with ❤️ by the Reflink Team
